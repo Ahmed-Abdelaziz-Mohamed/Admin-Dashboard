@@ -86,7 +86,7 @@ export default function Form() {
                         error={Boolean(errors.firstName)}
                         helperText={
                             errors.firstName
-                                ? "This Field is required & min 3 characters"
+                                ? "This Field is required & min 4 characters"
                                 : ""
                         }
                         {...register("firstName", {
